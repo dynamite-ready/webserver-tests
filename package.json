@@ -1,0 +1,25 @@
+{
+  "name": "Webserver Tests",
+  "version": "0.1.0",
+  "description": "Node JS Webserver speed tests.",
+  "main": "main.js",
+  "scripts": {
+      "start": "node main.js"
+  },
+  "config": {
+    "port": ""
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Leonard Charles",
+  "email": "l_r_charles@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "request": "*",
+    "hapi": "*",
+    "express": "*",
+    "connect": "*",
+    "restify": "*"
+  }
+}
